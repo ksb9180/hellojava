@@ -26,7 +26,7 @@ public class EqualsExample {
 		
 		if(strVar3.equals(strVar4)) {
 			System.out.println("strVar3과 strVar4는 문자열이  같음");
-		}		
+		}
 	}
 }
 

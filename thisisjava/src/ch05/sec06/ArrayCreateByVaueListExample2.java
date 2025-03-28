@@ -8,13 +8,13 @@ public class ArrayCreateByVaueListExample2 {
 		scores = new int[] { 83, 90, 87 };
 		//배열 항목의 총합을 구하고 출력
 		int sum1 = 0;
-		for(int i=0; i<3; i++) {
+		for(int i=0; i<3; i++) { // 3 -> scores.length
 			sum1 += scores[i];
 		}
 		System.out.println("총합 : " + sum1);	
 		
 		//배열을 매개값으로 주고, printItem 메소드 호출
-		printItem( new int[] { 83, 90, 87 } );
+		printItem( new int[] { 83, 90, 87 } ); //new int[] { 83, 90, 87 } -> scores도 가능
 	}
 	
 	//printItem 메소드 선언
